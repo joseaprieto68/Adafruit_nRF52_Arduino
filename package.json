@@ -1,0 +1,8 @@
+{
+  "name"       : "framework-arduinoadafruitnrf52",
+  "version"    : "1.10700.0",
+  "description": "Arduino Wiring-based Framework for Nordic nRF52",
+  "keywords"   : ["framework","arduino","nrf52"],
+  "repository" : { "type": "git",
+                   "url" : "https://github.com/joseaprieto68/Adafruit_nRF52_Arduino" }
+}
