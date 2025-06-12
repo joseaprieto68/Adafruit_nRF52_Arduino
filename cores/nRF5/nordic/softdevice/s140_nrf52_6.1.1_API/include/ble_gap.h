@@ -241,13 +241,13 @@ enum BLE_GAP_TX_POWER_ROLES
 /** @brief The maximum number of advertising sets supported by this SoftDevice. */
 #define BLE_GAP_ADV_SET_COUNT_MAX       (1)
 
-/**@defgroup BLE_GAP_ADV_SET_DATA_SIZES Advertising data sizes.
- * @{ */
-#define BLE_GAP_ADV_SET_DATA_SIZE_MAX                    (31)   /**< Maximum data length for an advertising set.
-                                                                     If more advertising data is required, use extended advertising instead. */
-#define BLE_GAP_ADV_SET_DATA_SIZE_EXTENDED_MAX_SUPPORTED (255)  /**< Maximum supported data length for an extended advertising set. */
+  /**@defgroup BLE_GAP_ADV_SET_DATA_SIZES Advertising data sizes.
+   * @{ */
+  #define BLE_GAP_ADV_SET_DATA_SIZE_MAX                    (31)   /**< Maximum data length for an advertising set.
+                                                                      If more advertising data is required, use extended advertising instead. */
+  #define BLE_GAP_ADV_SET_DATA_SIZE_EXTENDED_MAX_SUPPORTED (255)  /**< Maximum supported data length for an extended advertising set. */
 
-#define BLE_GAP_ADV_SET_DATA_SIZE_EXTENDED_CONNECTABLE_MAX_SUPPORTED (238) /**< Maximum supported data length for an extended connectable advertising set. */
+  #define BLE_GAP_ADV_SET_DATA_SIZE_EXTENDED_CONNECTABLE_MAX_SUPPORTED (238) /**< Maximum supported data length for an extended connectable advertising set. */
 /**@}. */
 
 /** @brief Set ID not available in advertising report. */
